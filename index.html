@@ -7,6 +7,14 @@
   <meta name="description" content="Huddle landing page with alternating feature blocks"/>
   <meta name="author" content="Samuel Amaro"/>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+  <!--icons font-awesome-->
+  <script src="https://kit.fontawesome.com/4cfa17c069.js" crossorigin="anonymous"></script>
+  <!--css-->
+  <link href="./css/normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="./css/styles.css" rel="stylesheet" type="text/css"/>
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
@@ -32,58 +40,89 @@
         </div>
       </div>
     </header>
-    <section class="block-main__content">
-      <section class="block-main__block-feature">
+    <div class="block-main__content">
+      <div class="block-main__block-feature">
         <article class="block-main__side-article">
-          <h2 class="block-main__subtitle-feature">Grow Together</h2>
+          <h3 class="block-main__subtitle-feature">Grow Together</h3>
           <p class="block-main__description-feature">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
         </article>
         <aside class="block-main__side-img">
           <img src="./images/illustration-grow-together.svg" alt="image from ilustration grow together"/>
         </aside>
-      </section>
-      <section class="block-main__block-feature">
+      </div>
+      <div class="block-main__block-feature">
         <aside class="block-main__side-img">
           <img src="./images/illustration-flowing-conversation.svg" alt="image from flowing conversations"/>
         </aside>
         <article class="block-main__side-article">
-          <h2 class="block-main__subtitle-feature">Flowing Conversations</h2>
+          <h3 class="block-main__subtitle-feature">Flowing Conversations</h3>
           <p class="block-main__description-feature">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
         </article> 
-      </section>
-      <section class="block-main__block-feature">
+      </div>
+      <div class="block-main__block-feature">
         <article class="block-main__side-article">
-          <h2 class="block-main__subtitle-feature">Your Users</h2>
+          <h3 class="block-main__subtitle-feature">Your Users</h3>
           <p class="block-main__description-feature">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
         </article> 
         <aside class="block-main__side-img">
           <img src="./images/illustration-your-users.svg" alt="Image from ilustration your users"/>
         </aside>
-      </section>
-    </section>
+      </div>
+    </div>
+    <div class="block-main__build-community">
+      <h2 class="block-main__subtitle">Ready To Build Your Community?</h2>
+      <button type="button" class="block-main__btn-get-started">Get Started For Free</button>
+    </div>
+    <footer class="block-main__footer">
+      <div class="block-main__infors">
+        <div class="block-main__logo-footer">
+          <img src="./images/logoWhite.svg" alt="image from logo"/>
+        </div>
+        <address class="block-main__address">
+          <p>
+            <img src="./images/icon-location.svg" alt="image icon from location"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <p>
+            <img src="./images/icon-phone.svg" alt="image icon from phone"/>
+            <a href="tel:+1-543-123-4567" target="_self" rel="next">+1-543-123-4567</a>
+          </p>
+          <p>
+            <img src="./images/icon-email.svg" alt="image icon from email"/>
+            <a href="mailto:example@huddle.com" target="_self" rel="next">example@huddle.com</a>
+          </p>
+        </address>
+      </div>
+      <nav class="block-main__nav-other-pages-footer">  
+        <a href="#about" target="_self" rel="next">About Us</a>
+        <a href="#what" target="_self" rel="next">What We Do</a>
+        <a href="#faq" target="_self" rel="next">FAQ</a>
+        <a href="#carrer" target="_self" rel="next">Career</a>
+        <a href="#blog" target="_self" rel="next"> Blog</a>
+        <a href="#contact" target="_self" rel="next">Contact Us</a>
+      </nav>
+      <nav class="block-main__social-media">
+        <div class="block-main__container-top-media">
+          <a href="#facebook" target="_blank" rel="next"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#twitter" target="_blank" rel="next"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#instagram" target="_blank" rel="next"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="block-main__container-copy">&copy; Copyright 2018 Huddle. All rights reserved.</p>     
+      </nav>
+    </footer>
   </main>
 
+
+  
+
+  
+  
+  
+
+  
  
+  
 
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
+  
 
 </body>
 </html>
