@@ -45,17 +45,17 @@ body{
 .block-main__header{
     background-image: url(../images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     background-color: var(--very-pale-cyan);
-    padding: 50px 30px;
-    
+    padding: 45px 30px 60px 30px;   
+    background-blend-mode: multiply;
 }
 
 .block-main__row-top{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin-bottom: 170px;
 }
 
 /*logo top*/
@@ -65,7 +65,7 @@ body{
 
 
 .block-main__logo img{
-    width: 200px;
+    width: 210px;
 }
 
 
@@ -76,7 +76,7 @@ body{
 }
 
 .block-main__img img{
-    width: 80%;
+    width: 88%;
 }
 
 /*button top*/
@@ -89,10 +89,83 @@ body{
 .block-main__btn-try{
     display: block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 19px;
     background-color: white;
     border: none;
-    padding: 12px 45px;
+    padding: 13px 45px;
     border-radius: 40px;
-    box-shadow: 0 1px 7px 3px var(--shadow-color);
+    box-shadow: 0 1px 7px 4px var(--shadow-color);
+}
+
+/*title main*/
+.block-main__title{
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 60px;
+    margin-bottom: 45px;
+}
+
+.block-main__description{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 46px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+
+.block-main__btn-get-started{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    padding: 25px 130px 25px 130px;
+    font-weight: 700;
+    border-radius: 75px;
+    box-shadow: 0 1px 7px 4px var(--shadow-color);
+}
+
+.block-main__text{
+    margin-bottom: 105px;
+}
+
+/**BLOCK FEATURE**/
+
+.block-main__content{
+    padding: 120px 0;
+}
+
+.block-main__block-feature{
+    margin: 0 40px;
+    box-shadow: 0 1px 10px 5px var(--shadow-color);
+    border-radius: 28px;
+    margin-bottom: 80px;
+    padding: 110px 0 60px 0;
+}
+
+.block-main__side-img{
+    padding: 0 90px 0 90px;
+    margin-bottom: 125px;
+}
+
+.block-main__subtitle-feature{
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.block-main__description-feature{
+    font-weight: 400;
+    color: var(--grayish-blue);
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    padding: 0 89px 0 89px;
 }
